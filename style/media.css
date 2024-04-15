@@ -1,0 +1,129 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .catalog__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .card__title{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .footer__menu .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu__footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+        width: 100%;
+    }
+
+    .contacts__text, .number, .email, .menu__link, .description__text {
+        font-size: 15px;
+    }
+
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .contacts__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .header__logo {
+        font-size: 60px;
+    }
+
+    .header__title {
+        font-size: 20px;
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .header__link {
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+
+        
+    .nav__burger {
+        display: block;
+        order: 1;
+    }
+     
+    .navbar__icons {
+        margin-right: 45px;
+    }
+ 
+    .menu {
+        position: absolute;
+        right: 0%;
+        top: 100%;
+        background: #00000000;
+        flex-direction: column;
+        align-items: stretch;
+        visibility: hidden;
+        z-index: 10;
+    }
+ 
+    .menu > li {
+        margin-bottom: 10px;
+    }
+ 
+    .nav__burger:focus ~ .menu {
+        visibility: visible;
+    }
+
+    .header {
+        background: #3E8989;
+    }
+
+    .header__nav {
+        margin: 0 15px;
+    }
+
+    .search__bar {
+        margin: 0 auto;
+    }
+}
